@@ -1,0 +1,150 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background color */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgb(4, 4, 22); /* Dark navbar background */
+}
+
+.nav-link {
+    color: #ffffff; /* Navbar text color */
+}
+
+.nav-link:hover {
+    color: #ffc107; /* Hover color for navbar links */
+}
+
+.logo{
+    text-decoration: none;
+}
+.logo i{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(4, 4, 22);
+}
+
+.logi{
+    color: red;
+}
+
+.log{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(4, 4, 22);
+    text-decoration: none;
+}
+
+.position-relative{
+    margin-top: 15px;
+}
+
+/* Dropdown styles */
+.dropdown-menu {
+    background-color: rgb(4, 4, 22); /* Dropdown background */
+    border: none;
+}
+
+.dropdown-item {
+    color: #ffffff; /* Dropdown item text color */
+}
+
+.dropdown-item:hover {
+    background-color: rgb(4, 4, 22); /* Dropdown item hover background */
+}
+
+/* Button styles */
+.btn {
+    background-color: #28a745; /* Button background */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s; /* Transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Search bar styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da; /* Border for the search input */
+    border-radius: 25px 0 0 25px; /* Rounded corners */
+}
+
+.search-bar button {
+    background-color: rgb(4, 4, 22); /* Search button background */
+    color: white; /* Search button text color */
+    border: none;
+    border-radius: 0 4px 4px 0; /* Rounded corners */
+    padding: 10px;
+}
+
+.search-bar button:hover {
+    background-color: rgb(4, 4, 22); /* Darker blue on hover */
+}
+
+/* Main section styles */
+.main {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.main h1 {
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 50px;
+}
+
+.shop{
+    color: red;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+
+.image img {
+    width: 300px; /* Image size */
+    height: auto;
+    margin: 5px;
+    transition: transform 0.6s; /* Transition for hover effect */
+}
+
+.image img:hover {
+    transform: scale(1.1); /* Slightly enlarge images on hover */
+}
+
+/* Dropdown button styles */
+.dropdown-btn {
+    background-color: rgb(201, 35, 35); /* Gray background */
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.dropdown-btn:hover {
+    background-color: rgb(36, 36, 75); /* Darker gray on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.dropdown-menu a{
+    color: whitesmoke;
+    text-decoration: none;
+}

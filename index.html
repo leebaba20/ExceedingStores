@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Exceeding Food Store</title>
+    <link rel="stylesheet" href=".//fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href=".//bootstrap.min.css">
+    <link rel="stylesheet" href=".//style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <img src=".//Images/flag.jpg" alt="Nigerian Flag" class="me-2">
+        <div class="navbar-nav ms-auto">
+            <div class="dropdown me-3">
+                <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">English</a>
+                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                    <li><a class="dropdown-item" href="#">Language Option 1</a></li>
+                    <li><a class="dropdown-item" href="#">Language Option 2</a></li>
+                </ul>
+            </div>
+
+            <div class="dropdown me-3">
+                <a class="nav-link dropdown-toggle" href="#" id="currencyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-naira-sign"></i> Naira
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="currencyDropdown">
+                    <li><a class="dropdown-item" href="#">Currency Option 1</a></li>
+                    <li><a class="dropdown-item" href="#">Currency Option 2</a></li>
+                </ul>
+            </div>
+
+            <div class="tel">
+                <a class="nav-link" href="tel:+2348144217773"><i class="fa-solid fa-phone"></i> +2348144217773</a>            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4" id="exced">
+        <div class="row">
+            <div class="col-md-7 m-auto text-center">
+                <a href="#" class="logo d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-basket-shopping"></i><span class="log"><span class="logi">E</span>XCEEDING <span class="logi">F</span>OOD <span class="logi">S</span>TORE
+                </a>
+                <div class="position-relative">
+                    <form action="#" method="get" class="search-bar">
+                        <input type="text" placeholder="Search anything" class="form-control" aria-label="Search">
+                        <button type="submit" class="btn position-absolute top-0 end-0"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main mt-4">
+        <div class="text">
+            <h1><span class="shop">S</span>hop <span class="shop">H</span>ere</h1>
+            <span class="image">
+                <img src=".//Images/bag of rice.jpg" alt="Bag of Rice">
+                <img src=".//Images/pepper.jpg" alt="Pepper">
+                <img src=".//Images/salad.jpg" alt="salad">
+                <img src=".//Images/tomato.jpg" alt="Tomato">
+                <img src=".//Images/onions.jpg" alt="Onions">
+                <img src=".//Images/yam tubers.jpg" alt="Yam Tubers">
+                <img src=".//Images/crayfish.jpg" alt="crayfish">
+                <img src=".//Images/groundnut oil.jpg" alt="groundnut oil">
+            </span>
+        </div>
+        <div class="container" id="cont">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="dropdown-content" id="categoriesDropdown">
+                        <button class="dropdown-btn" onclick="toggleDropdown('categories')">Categories <i class="fa-solid fa-caret-down"></i></button>
+                        <div class="subnave" id="categories">
+                            <div class="subnav">
+                                <button class="dropdown-btn" onclick="toggleDropdown('packedItems')">Bagged/Packed/Bottled Food Items</button>
+                                <ul id="packedItems" class="dropdown-menu">
+                                    <li><a href="#">Rice</a></li>
+                                    <li><a href="#">Pasta</a></li>
+                                    <li><a href="#">Noodles</a></li>
+                                    <li><a href="#">Beans</a></li>
+                                    <li><a href="#">Tomato Paste (Tin and Sachet)</a></li>
+                                </ul>
+                            </div>
+                            <div class="subnav">
+                                <button class="dropdown-btn" onclick="toggleDropdown('comboPackage')">Combo Package</button>
+                                <ul id="comboPackage" class="dropdown-menu">
+                                    <li><a href="#">Varieties combo pack</a></li>
+                                    <li><a href="#">Soup Ingredients Package</a></li>
+                                </ul>
+                            </div>
+                            <div class="subnav">
+                                <button class="dropdown-btn" onclick="toggleDropdown('soupIngredients')">Soup & Stew Ingredients(Fresh)</button>
+                                <ul id="soupIngredients" class="dropdown-menu">
+                                    <li><a href="#">Tomato/Pepper/Onions</a></li>
+                                    <li><a href="#">Vegetables(green vegies and others)</a></li>
+                                    <li><a href="#">Others(okra/egusi/Ogbono/Afang/ etc)</a></li>
+                                </ul>
+                            </div>
+                            <div class="subnav">
+                                <button class="dropdown-btn" onclick="toggleDropdown('tubers')">Tubers</button>
+                                <ul id="tubers" class="dropdown-menu">
+                                    <li><a href="#">Yam</a></li>
+                                    <li><a href="#">Irish potato</a></li>
+                                    <li><a href="#">Sweet potato</a></li>
+                                </ul>
+                            </div>
+                            <div class="subnav">
+                                <button class="dropdown-btn" onclick="toggleDropdown('meatSeafood')">Meat, Poultry, Seafood</button>
+                                <ul id="meatSeafood" class="dropdown-menu">
+                                    <li><a href="#">Cow meat</a></li>
+                                    <li><a href="#">Bulk meat sharing</a></li>
+                                    <li><a href="#">Chicken</a></li>
+                                    <li><a href="#">Turkey</a></li>
+                                    <li><a href="#">Fish</a></li>
+                                    <li><a href="#">Goat meat</a></li>
+                                    <li><a href="#">Crayfish</a></li>
+                                    <li><a href="#">Lobsters</a></li>
+                                    <li><a href="#">Prawn</a></li>
+                                </ul>
+                            </div>
+                            <div class="subnav">
+                                <button class="dropdown-btn" onclick="toggleDropdown('oils')">Oils</button>
+                                <ul id="oils" class="dropdown-menu">
+                                    <li><a href="#">Vegetable/Groundnut/Palmoil</a></li>
+                                    <li><a href="#">Olive/Soya/Sunflower/Canola oil</a></li>
+                                </ul>
+                            </div>
+                            <div class="subnav">
+                                <button class="dropdown-btn" onclick="toggleDropdown('swallowItems')">Swallow Items</button>
+                                <ul id="swallowItems" class="dropdown-menu">
+                                    <li><a href="#">Garri</a></li>
+                                    <li><a href="#">Elubo Lafun</a></li>
+                                    <li><a href="#">Elubo Isu</a></li>
+                                    <li><a href="#">Plantain flour, Rice flour, Pando flour</a></li>
+                                    <li><a href="#">Packaged swallow item</a></li>
+                                </ul>
+                            </div>
+                            <div class="subnav">
+                                <button class="dropdown-btn" onclick="toggleDropdown('condiments')">Condiments and Spices</button>
+                                <ul id="condiments" class="dropdown-menu">
+                                    <li><a href="#">Roots (Ginger/Garlic etc)</a></li>
+                                    <li><a href="#">Fried Rice Ingredients (Fresh)</a></li>
+                                    <li><a href="#">Seasoning/Spices</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function toggleDropdown(id) {
+            const dropdownMenus = document.querySelectorAll('.dropdown-menu');
+            const dropdownMenu = document.getElementById(id);
+
+            // Close all dropdowns
+            dropdownMenus.forEach(menu => {
+                if (menu !== dropdownMenu) {
+                    menu.style.display = "none";
+                }
+            });
+
+            // Toggle the clicked dropdown
+            dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+            
+        }
+    </script>
+
+    <script src=".//bootstrap.bundle.min.js"></script>
+</body>
+</html>
