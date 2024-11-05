@@ -37,6 +37,30 @@
         </div>
     </nav>
 
+    <div class="logindiv">
+        <div>
+            <br>
+            <label for="username">Username</label>
+            <br>
+            <input type="text" id="user" placeholder="Enter Username" size="18">
+            <br>
+        </div>
+
+        <div>
+            <label for="pass"> Password </label><br>
+            <input type="password" id="pass" placeholder="Enter password" size="18"><br>
+            <h6 class="incorrect" id=incorrectpass></h6>
+        </div>
+
+        <div>
+            <button id="btnlogins" onclick="ajaxcall.ajax(checkuser,'http://localhost:3000/json/users.json','username')">LOGIN</button>
+            <br>
+            <h6 id="signup"> New User? SIGN UP </h6>
+        </div>
+
+    </div>
+
+    
     <div class="container mt-4" id="exced">
         <div class="row">
             <div class="col-md-7 m-auto text-center">

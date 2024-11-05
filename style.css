@@ -17,6 +17,25 @@ body {
     color: #ffc107; /* Hover color for navbar links */
 }
 
+.logindiv label{
+    font-weight: bolder;
+}
+.logindiv input{
+    border-radius: 5px;
+    border: 1px solid rgb(4, 4, 22);
+}
+
+#btnlogins{
+    border: 1px solid rgb(4, 4, 22);
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#signup{
+    font-weight: bold;
+    font-style: italic;
+}
+
 .logo{
     text-decoration: none;
 }
